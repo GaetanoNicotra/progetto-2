@@ -65,12 +65,23 @@ const Form = () => {
 
                     {/* radio button */}
                     <div className="">
-                        <label htmlFor="" className="block font-medium leading-6">Push Notification</label>
+                        <label className="block font-medium leading-6 mb-5">Push Notification</label>
 
-                        <input className="block" type="radio" name="" id="" />
-                        <input type="radio" name="" id="" />
+                        <div className="flex gap-3 items-center mb-4">
+                            <input className="block" type="radio" />
+                            <label className="font-semibold text-sm">Everything</label>
+                        </div>
 
+                        <div className="flex gap-3 items-center">
+                            <input className="block" type="radio" />
+                            <label className="font-semibold text-sm">Same as email</label>
+                        </div>
+                    </div>
 
+                    {/* buttons */}
+                    <div className="text-end">
+                        <button className="px-3 py-1.5 bg-white ring-1 ring-gray-600 hover:cursor-pointer rounded-lg mr-3 font-semibold">Cancel</button>
+                        <button className="px-3 py-1.5 bg-indigo-500 hover:bg-indigo-400 hover:cursor-pointer rounded-lg text-white font-semibold">Save Changes</button>
                     </div>
                 </form>
             </div>
