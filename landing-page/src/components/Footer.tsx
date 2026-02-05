@@ -27,7 +27,7 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <ul className="text-white leading-10">
+                                <ul className="text-white leading-12">
                                     <li className="font-bold mb-4">Solutions </li>
                                     <li>Marketing</li>
                                     <li>Analytics</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <ul className="text-white leading-10">
+                                <ul className="text-white leading-12">
                                     <li className="font-bold mb-4">Support</li>
                                     <li>Pricing</li>
                                     <li>Documentation</li>
@@ -47,7 +47,7 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <ul className="text-white leading-10">
+                                <ul className="text-white leading-12">
                                     <li className="font-bold mb-4">Company</li>
                                     <li>About</li>
                                     <li>Blog</li>
@@ -58,7 +58,7 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <ul className="text-white leading-10">
+                                <ul className="text-white leading-12">
                                     <li className="font-bold mb-4">Legal </li>
                                     <li>Claim</li>
                                     <li>Privacy</li>
@@ -78,7 +78,7 @@ const Footer = () => {
                             <li className="text-gray-600">© 2024 TailwindShowcase, Inc. All rights reserved.</li>
 
                             <li>
-                                <input type="email" className="bg-gray-800 px-3 py-1.5 mr-3 rounded" placeholder="Enter your Email" />
+                                <input type="email" className="bg-gray-800 px-3 py-1.5 mr-3 rounded w-80" placeholder="Enter your Email" />
                                 <button className="bg-indigo-500 px-3 py-1.5 rounded text-white font-semibold">Subscribe</button>
                             </li>
                         </ul>
