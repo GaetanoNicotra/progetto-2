@@ -6,7 +6,7 @@ import Tabs from "./components/Tabs"
 import PricingCards from "./components/PricingCards"
 import Testimonials from "./components/Testimonials"
 import Form from "./components/Form"
-import Table from "./components/Table"
+import { Table } from "./components/Table"
 
 export default function App() {
   return <div className="min-h-screen bg-white font-sans text-slate-900 antialiased selection:bg-indigo-100 selection:text-indigo-700">
